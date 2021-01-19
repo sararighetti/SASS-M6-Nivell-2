@@ -1,0 +1,6 @@
+/*Mixin*/
+@mixin strip_style ($color, $animation) {   
+    animation-name: $animation;
+    animation-timing-function: ease-out;
+    background-color: $color;
+  }
